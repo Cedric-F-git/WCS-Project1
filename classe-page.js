@@ -31,12 +31,16 @@ const grenadeObject = [
     },
 ]
 
-const grenade = document.querySelector(".ul-grenade");
+const grenade = document.querySelector(".all-grenade");
 
 function createAbilityClass(imageUrl, title, paragraphe) {
+    const ulGrenade = document.createElement("div");
+    ulGrenade.classList.add("ul-grenade");
+    grenade.appendChild(ulGrenade);
+
     const greList = document.createElement("div");
     greList.classList.add("gre-img");
-    grenade.appendChild(greList);
+    ulGrenade.appendChild(greList);
 
     const grenadeImg = document.createElement("img");
     grenadeImg.src = imageUrl;
@@ -46,7 +50,7 @@ function createAbilityClass(imageUrl, title, paragraphe) {
 
     const grenadeContainer = document.createElement("div");
     grenadeContainer.classList.add("gre-container");
-    grenade.appendChild(grenadeContainer);
+    ulGrenade.appendChild(grenadeContainer);
 
     const grenadeTitle = document.createElement("h4");
     grenadeTitle.innerHTML = title;
