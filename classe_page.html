@@ -11,25 +11,26 @@
 </head>
 
 <body>
-    <header class="main-navigation">
+    <header class="main-navigation">    
         <nav>
-            <input type="checkbox" class="toggle-btn">
-            <div class="burger-menu"></div>
-            <ul class="ul-navbar">
-                <li class="li-navbar"><a href="index.html">Actualité</a></li>
-                <li class="li-navbar"><a href="species_page.html">Espèce</a></li>
-                <li class="li-navbar"><a href="classe_page.html">Classe</a></li>
-                <li class="li-navbar"><a href="personnage_page.html">Personnage</a></li>
-            </ul>
+            <div class="navlink-container">
+                <input type="checkbox" class="toggle-btn">
+                <div class="burger-menu"></div>
+                <ul class="ul-navbar">
+                    <li class="li-navbar"><a href="index.html">Actualité</a></li>
+                    <li class="li-navbar"><a href="species_page.html">Espèce</a></li>
+                    <li class="li-navbar"><a href="classe_page.html">Classe</a></li>
+                    <li class="li-navbar"><a href="personnage_page.html">Personnage</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
+    <img src="https://www.bungie.net/common/destiny2_content/screenshots/2842471112.jpg"
+    alt=""
+    class="back-img">
+
     <main>
-
-        <!-- <img src="https://www.bungie.net/common/destiny2_content/screenshots/2842471112.jpg"
-             alt=""
-             class="back_img"> -->
-
         <div class="doctrine-select">
             <ul class="doctrine-ul">
                 <li class="doctrine-img"><img src="https://www.bungie.net/common/destiny2_content/icons/fa3084d2798d59db7b3419a2fae1bf0c.png" alt="Doctrine Abyssalle: Sentinelle" class="doctrine-img"></li>
@@ -39,9 +40,9 @@
             </ul>
         </div>
 
-        <h1 class="title-class">
-            Le Titan
-        </h1>
+        <div>
+            <h1 class="title-class">Le Titan</h1>
+        </div>
 
         <div class="description-class-container">
             <div class="description-class">
@@ -59,39 +60,20 @@
                     
                     <div class="ability-container">                    
                         <li class="li-ability-class">Grenades</li>
-                        <ul class="ul-grenade-img">
-                            <li class="grenade-li">
+
+                        <div class="ul-grenade">
+                            <div class="gre-img">
                                 <img src="https://www.bungie.net/common/destiny2_content/icons/5212672b29258f5fe2dce884083f69e1.jpg"
-                                 alt="Décharge d'axions" class="grenade-img">
-                                Décharge d'axions</li>
-                            <li class="grenade-li">
-                                <img src="https://www.bungie.net/common/destiny2_content/icons/1be0be8f8b7d67414b6f96ff0562f527.jpg"
-                                 alt="Grenade magnétique" class="grenade-img">
-                                Grenade magnétique</li>
-                            <li class="grenade-li">
-                                <img src="https://www.bungie.net/common/destiny2_content/icons/4809222d69a67300601706cc70fec814.jpg"
-                                 alt="Grenade à dispersion" class="grenade-img">
-                                Grenade à dispersion</li>
-                            <li class="grenade-li">
-                                <img src="https://www.bungie.net/common/destiny2_content/icons/c0380f98212741e67092cb0a5080ee16.jpg"
-                                 alt="Grenade à vortex" class="grenade-img">
-                                Grenade à vortex</li>
-                            <li class="grenade-li">
-                                <img src="https://www.bungie.net/common/destiny2_content/icons/bbdf2e0f41bad0fdf167aace75b88b8a.jpg"
-                                 alt="Grenade incapacitante" class="grenade-img">
-                                Grenade incapacitante</li>
-                            <li class="grenade-li">
-                                <img src="https://www.bungie.net/common/destiny2_content/icons/e1fe72608ed560d20f81ff41c8997fb7.jpg"
-                                 alt="Mur abyssal" class="grenade-img">
-                                Mur abyssal</li>
-                            <li class="grenade-li">
-                                <img src="https://www.bungie.net/common/destiny2_content/icons/aa8480964870b6b8be7d19ee68814b14.jpg"
-                                 alt="Pic abyssal" class="grenade-img">
-                                Pic abyssal</li>
-                        </ul>
+                                    alt="Décharge d'axions" class="grenade-img">
+                            </div>
+                            <div class="gre-container">
+                                <h4 class="grenade-name">Décharge d'axions</h4>
+                                <p class="grenade-description">A l'impact, cette décharge de Lumière abyssale se divise en petits éclats qui poursuivent les cibles.</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="ability-container">                    
+                    <!-- <div class="ability-container">                    
                         <li class="li-ability-class">Mêlée</li>
                         <ul class="melee-img">
                             <li class="melee-li">Lancer de bouclier</li>
@@ -105,7 +87,7 @@
                             <li class="ability-li">Barricade imposante</li>
                             <li class="ability-li">Barricade de ralliement</li>
                         </ul>
-                    </div>
+                    </div> -->
                 </ul>
             </div>
         </div>
@@ -115,6 +97,7 @@
     <footer class="index-footer">
         <h5>© 2022 Bungie, Inc. Tous droits réservés</h5>
     </footer>
-    
+
+    <script src="classe-page.js"></script>
 </body>
 </html>

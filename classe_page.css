@@ -18,7 +18,12 @@ body {
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
+    /* background-image: url(https://www.bungie.net/common/destiny2_content/screenshots/2842471112.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; */
 }
+
+
 
 .burger-menu {
     position: relative;
@@ -109,19 +114,21 @@ main {
     display: flex;
     flex-direction: column;
     margin: 5vw;
-    /* background-image: url(https://www.bungie.net/common/destiny2_content/screenshots/2842471112.jpg);
-    background-size: contain;
-    background-repeat: no-repeat; */
+}
+
+.back-img {
+    width: 100%;
+    margin-top: 30px;
 }
 
 .doctrine-ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .doctrine-img {
-    padding: 2vw;
-    width: 96px;
+    width: 80px;
 }
 
 .title-class {
@@ -144,16 +151,27 @@ main {
 
 .ul-grenade-img {
     display: flex;
-    flex-direction: row;
-}
-
-.grenade-li {
-    display: flex;
     flex-direction: column;
 }
 
 .grenade-img {
     width: 50px;
+    /* filter: contrast(50%); */
+}
+
+.gre-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #3a1f58;
+    border-radius: 0px 5px 5px 5px;
+    padding: 10px;
+    padding-bottom: 20px;
+    opacity: 85%;
+    border: #6f0ce0 solid 2px;
+}
+
+.grenade-name {
+    padding-bottom: 10px;
 }
 
 
