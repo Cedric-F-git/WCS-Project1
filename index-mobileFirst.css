@@ -217,12 +217,10 @@ footer {
     }
 
     .actu-row{
-        /* margin: 0; */
         transition: 0.5s;
     }
 
     .actu-row:hover {
         margin: 10px 50px;
-        /* transition: 2s; */
     }
 }

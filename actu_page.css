@@ -106,7 +106,7 @@ body {
 
 .main-title {
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     height: 110px;
     font-size: 3em;
@@ -117,11 +117,20 @@ body {
 .actu-page {
     display: flex;
     flex-direction: column;
-    background-color: var(--main-color);
     margin: 30px 5vw;
+    border-radius: 10px;
+}
+
+.actu-article-container {
+    background-color: var(--main-color);
     box-shadow: 5px 5px 20px 4px rgba(0,0,0,0.75);
     border-radius: 10px;
-    padding-bottom: 15px;
+
+}
+
+iframe {
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 20px 4px rgba(0,0,0,0.75);
 }
 
 .vod-ytube {
@@ -133,6 +142,7 @@ body {
     width: auto;
     border-radius: 10px;
     margin-bottom: 20px;
+    box-shadow: 5px 5px 20px 4px rgba(0,0,0,0.75);
 }
 
 .actu-content {
@@ -170,6 +180,16 @@ footer {
         background-attachment: fixed;
     }
 
+    .actu-page {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 700px;
+    }
+
+    iframe {
+        width: 700px;
+    }
+
     .ul-navbar {
         display: flex;
         flex-direction: row;
@@ -184,6 +204,7 @@ footer {
     }
 
     .main-title {
+        justify-content: center;
         margin-top: 100px;
         font-size: 3.5em;
     }
