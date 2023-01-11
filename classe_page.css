@@ -18,12 +18,7 @@ body {
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
-    /* background-image: url(https://www.bungie.net/common/destiny2_content/screenshots/2842471112.jpg);
-    background-size: contain;
-    background-repeat: no-repeat; */
 }
-
-
 
 .burger-menu {
     position: relative;
@@ -114,12 +109,21 @@ main {
     display: flex;
     flex-direction: column;
     margin: 5vw;
+
 }
 
 .back-img {
     width: 100%;
     margin-top: 30px;
     box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
+}
+
+.back-img-resp{
+    display: none;
+}
+
+.title-class {
+    font-size: 3em;
 }
 
 .doctrine-ul {
@@ -129,7 +133,7 @@ main {
 }
 
 .doctrine-img {
-    width: 80px;
+    width: 70px;
 }
 
 .title-class {
@@ -138,33 +142,65 @@ main {
     margin: 20px;
 }
 
-.ul-ability-class {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+.p-descritption-class {
+    margin: 5px 0;
 }
 
-.li-ability-class {
-    display: flex;
-    flex-direction: column;
-    font-size: large;
+.ability-container {
+    margin-top: 30px;
+}
+
+.img-super {
+    width: 50px;
+    /* transform: rotate(315deg); */
+    background-color: #3a1f58;
+    border-radius: 5px 0px 0px 5px;
+    border-top: #6f0ce0 solid 2px;
+    border-left: #6f0ce0 solid 2px;
+    border-bottom: #6f0ce0 solid 2px;
+    /* opacity: 90%; */
+}
+
+.super-main-title {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+.img-super-container {
+    margin-bottom: -55px;
+    margin-left: -8px;
+}
+
+.super-container {
+    margin: 40px 0;
+}
+
+.super-content {
+    position: relative;
+    z-index: -1;
+    background-color: #3a1f58;
+    border-radius: 2px 5px 5px 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    opacity: 90%;
+    border: #6f0ce0 solid 2px; 
+    margin-left: 40px;
+}
+
+.super-title {
+    margin: 10px;
 }
 
 .all-grenade {
-    display: flex;
-    flex-direction: row;
-}
-
-.ul-grenade {
-    display: flex;
-    flex-direction: column;
+    margin-top: 10px;
 }
 
 .grenade-img {
-    width: 55px;
-    padding-left: 5px;
+    width: 46px;
+    padding: 0 3px;
     margin-bottom: -5px;
-    /* filter: contrast(80%); */
 }
 
 .gre-container {
@@ -176,10 +212,11 @@ main {
     padding-bottom: 20px;
     opacity: 85%;
     border: #6f0ce0 solid 2px;
+    height: 17vh;    
 }
 
-.grenade-name {
-    padding-bottom: 10px;
+#title {
+    margin: 5px;
 }
 
 
@@ -194,9 +231,25 @@ footer {
     margin-top: 20px;
 }
 
+/* Mobile 400px */
+
+@media screen and (min-width: 400px) {
+    .doctrine-img {
+        width: 80px;
+    }
+
+    .grenade-img {
+        width: 50px;
+    }
+
+    .gre-container {
+        height: 14vh;
+    }
+}
+
 /* Mobile, tablette version */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
     .burger-menu, .toggle-btn {
         display: none;
     }
@@ -205,7 +258,7 @@ footer {
         min-height: 100vh;
     }
 
-        .ul-navbar {
+    .ul-navbar {
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -217,6 +270,50 @@ footer {
         font-size: 0.8em;
         left: 0;
     }
+
+    .super-main-title {
+        margin: 40px 0;
+        font-size: 2em;
+    }
+
+    .doctrine-img {
+        width: 100px;
+    }
+
+    .description-class {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .p-descritption-class {
+        width: 40vw;
+        margin: 20px 0;
+        margin-right: 50px;
+    }
+
+    .ability-class-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .super-container {
+        width: 40vw;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .ability-container {
+        margin: 0;
+    }
+
+    .gre-container {
+        height: 16vh;
+    }
+
+    .all-grenade {
+        width: 350px;
+    }
 }
 
 /* Desktop version */
@@ -225,5 +322,36 @@ footer {
     .ul-navbar li a:hover {
         color: #E59D23;
         background-color: var(--main-color)
+    }
+
+    .back-img {
+        display: none;
+    }
+
+    .back-img-resp {
+        display: block;
+        box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
+    }
+
+    .title-class {
+        justify-content: flex-start;
+        padding-left: 19vw;
+        padding: 15px 10vw;
+    }
+
+    .all-grenade {
+        width: 400px;
+    }
+
+    .gre-container {
+        height: 13vh;
+    }
+
+    .grenade-img {
+        width: 55px;
+    }
+
+    .p-descritption-class {
+        margin-right: 100px;
     }
 }
