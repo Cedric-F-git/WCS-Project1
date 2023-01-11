@@ -82,15 +82,5 @@ const descriptionElement = document.createElement("p");
 descriptionElement.id = "description";
 descriptionContainer.appendChild(descriptionElement);
 
-const superObject = [
-  {
-    name: "Bouclier de sentinelle",
-    picture: "https://www.bungie.net/common/destiny2_content/icons/f02fd0d90b8d3d7182b9c7cab1a46f64.png",
-    description: "Utilisez la garde avec Bouclier de Sentinelle pour créer un mur défensif. Les alliés qui tirent à travers le mur augmentent les dégâts d'armes, et les alliés qui utilisent la garde augmentent la durée du bouclier.",
-  },
-  {
-    name: "Rempart d'aurore",
-    picture: "https://www.bungie.net/common/destiny2_content/icons/91eec50f00de84db8b666ec299859a21.png",
-    description: "Créez un dôme indestructible qui vous protège, ainsi que vos alliés. Passer à travers le Rempart d'aurore vous confère à vous, ainsi qu'à vos alliés, une augmentation temporaire de vos dégâts des armes.",
-  },
-]
+document.querySelector("#title").textContent = grenadeObject[0].name;
+document.querySelector("#description").textContent = grenadeObject[0].description;
