@@ -155,11 +155,11 @@ main {
 
 .img-super {
     width: 50px;
-    background-color: #3a1f58;
+    background-color: #0c3a9c8f;
     border-radius: 5px 0px 0px 5px;
-    border-top: #6f0ce0 solid 2px;
-    border-left: #6f0ce0 solid 2px;
-    border-bottom: #6f0ce0 solid 2px;
+    border-top: #014ef3 solid 2px;
+    border-left: #014ef3 solid 2px;
+    border-bottom: #014ef3 solid 2px;
     padding-right: 2px;
 }
 
@@ -181,18 +181,22 @@ main {
 .super-content {
     position: relative;
     /* z-index: -1; */
-    background-color: #3a1f58;
+    background-color: #0c3a9c8f;
     border-radius: 2px 5px 5px 5px;
     padding: 10px;
     padding-left: 20px;
     padding-bottom: 20px;
     opacity: 90%;
-    border: #6f0ce0 solid 2px; 
+    border: #014ef3 solid 2px; 
     margin-left: 40px;
 }
 
 .super-title {
     margin: 10px;
+}
+
+.super-description {
+    padding: 5px;
 }
 
 .all-grenade {
@@ -208,12 +212,12 @@ main {
 .gre-container {
     display: flex;
     flex-direction: column;
-    background-color: #3a1f58;
+    background-color: #0c3a9c8f;
     border-radius: 5px;
     padding: 10px;
     padding-bottom: 20px;
     opacity: 85%;
-    border: #6f0ce0 solid 2px;
+    border: #014ef3 solid 2px;
     height: 17vh;    
 }
 
@@ -247,7 +251,7 @@ footer {
     }
 
     .gre-container {
-        height: 14vh;
+        height: 16vh;
     }
 }
 
@@ -311,7 +315,7 @@ footer {
     }
 
     .gre-container {
-        height: 16vh;
+        height: 18vh;
     }
 
     .all-grenade {
@@ -347,7 +351,7 @@ footer {
     }
 
     .gre-container {
-        height: 13vh;
+        height: 16vh;
     }
 
     .grenade-img {

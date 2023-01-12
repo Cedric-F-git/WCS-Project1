@@ -155,11 +155,11 @@ main {
 
 .img-super {
     width: 50px;
-    background-color: #3a1f58;
+    background-color: #18a1caa9;
     border-radius: 5px 0px 0px 5px;
-    border-top: #6f0ce0 solid 2px;
-    border-left: #6f0ce0 solid 2px;
-    border-bottom: #6f0ce0 solid 2px;
+    border-top: #00c3ff solid 2px;
+    border-left: #00c3ff solid 2px;
+    border-bottom: #00c3ff solid 2px;
     padding-right: 2px;
 }
 
@@ -180,14 +180,13 @@ main {
 
 .super-content {
     position: relative;
-    /* z-index: -1; */
-    background-color: #3a1f58;
+    background-color: #18a1caa9;
     border-radius: 2px 5px 5px 5px;
     padding: 10px;
     padding-left: 20px;
     padding-bottom: 20px;
     opacity: 90%;
-    border: #6f0ce0 solid 2px; 
+    border: #00c3ff solid 2px; 
     margin-left: 40px;
 }
 
@@ -208,12 +207,12 @@ main {
 .gre-container {
     display: flex;
     flex-direction: column;
-    background-color: #3a1f58;
+    background-color: #18a1caa9;
     border-radius: 5px;
     padding: 10px;
     padding-bottom: 20px;
     opacity: 85%;
-    border: #6f0ce0 solid 2px;
+    border: #00c3ff solid 2px;
     height: 17vh;    
 }
 
