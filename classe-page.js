@@ -50,7 +50,7 @@ grenadeObject.forEach((data, index) => {
     greImg.style.filter = "";
   }
 
-  greImg.addEventListener("click", function () {
+  greImg.addEventListener("click", () => {
     const allgreImg = imageContainer.querySelectorAll("img");
 
     allgreImg.forEach((otherImage, otherIndex) => {

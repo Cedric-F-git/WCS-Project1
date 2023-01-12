@@ -98,6 +98,7 @@ body {
     width: 70vw;
     height: auto;
     background: linear-gradient(#12171c, #1e2227);
+    transition: 0.4s;
 }
 
 .li-navbar {
@@ -144,6 +145,8 @@ main {
 
 .p-descritption-class {
     margin: 5px 0;
+    margin: 20px 0;
+    text-align: justify;
 }
 
 .ability-container {
@@ -229,6 +232,8 @@ footer {
     height: 50px;
     text-align: center;
     margin-top: 20px;
+    position: static;
+    bottom: 0;
 }
 
 /* Mobile 400px */
@@ -287,7 +292,6 @@ footer {
 
     .p-descritption-class {
         width: 40vw;
-        margin: 20px 0;
         margin-right: 50px;
     }
 
