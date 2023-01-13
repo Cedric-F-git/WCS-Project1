@@ -217,11 +217,11 @@ footer {
         background-color: var(--main-color);
     }
 
-    .actu-row {
+    /* .actu-row {
         transition: 0.5s;
     }
 
     .actu-row:hover {
         margin: 10px 50px;
-    }
+    } */
 }
